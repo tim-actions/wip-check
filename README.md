@@ -23,7 +23,7 @@ jobs:
     name: WIP Check
     steps:
     - name: WIP Check
-      uses: Tim-Zhang/wip-check@master
+      uses: tim-actions/wip-check@master
       with:
         labels: '["do-not-merge", "wip", "rfc"]'
         keywords: '["WIP", "wip", "RFC", "rfc"]'

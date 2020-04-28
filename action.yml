@@ -1,0 +1,12 @@
+name: 'wip-check'
+description: 'A GitHub Action tests that the PR does not contain any label or keyword in the title intended to prevent premature merging of the PR'
+inputs:
+  labels:
+    description: 'wip labels, eg. ["do-not-merge", "wip", "rfc"]'
+    required: false
+  keywords:
+    description: 'wip keywords in title, eg. ["WIP", "RFC"]'
+    required: false
+runs:
+  using: 'node12'
+  main: 'index.js'

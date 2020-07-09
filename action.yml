@@ -1,5 +1,8 @@
 name: 'wip-check'
 description: 'A GitHub Action tests whether the PR has label or keyword in the title intended to prevent premature merging of the PR'
+branding:
+  icon: 'check-circle'
+  color: 'white'
 inputs:
   labels:
     description: 'wip labels, eg. ["do-not-merge", "wip", "rfc"]'

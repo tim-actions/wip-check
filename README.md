@@ -15,7 +15,7 @@ on:
       - reopened
       - edited
       - labeled
-      - unlabeled]
+      - unlabeled
 
 jobs:
   pr_wip_check:

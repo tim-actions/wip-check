@@ -8,5 +8,5 @@ inputs:
     description: 'wip keywords in title, eg. ["WIP", "RFC"]'
     required: false
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
